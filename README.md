@@ -1,5 +1,5 @@
 # 🌐 Study to CS-Interview 🌐
-<img src="!https://github.com/99sStudy/CS-Interview-Master/assets/90139306/5454919c-76ab-4d5f-bd61-7260d0c31a08" widtt="100" height="300" />
+<img src="https://github.com/99sStudy/CS-Interview-Master/assets/90139306/5454919c-76ab-4d5f-bd61-7260d0c31a08" widtt="100" height="300" />
 </br>
 4명의 팀원으로 구성되어 CS 전공 지식을 학습하고 </br>
 CS 관련 면접을 준비하는 스터디입니다. </br>
