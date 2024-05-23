@@ -25,12 +25,15 @@ CS 분량 기준
 - 자바스크립트 질문 1개
 
 
-### CS
+## 💭CS 관련 꼬리 질문
+
+- [✨JSON이 무엇인가요?](https://github.com/99sStudy/CS-Interview-Master/blob/main/%EA%B0%9C%EB%B0%9C%EC%9E%90%20%EA%B8%B0%EB%B3%B8%20CS/ShinQA-1.md)  - JSON이 무엇인지 정확히 알자.
+- [✨XML이 무엇인지 설명해주세요.](https://github.com/99sStudy/CS-Interview-Master/blob/main/%EA%B0%9C%EB%B0%9C%EC%9E%90%20%EA%B8%B0%EB%B3%B8%20CS/ShinQA-2.md) - XML이 무엇인지, 어떻게 쓰이는지 JSON과 HTML과 무슨차이가 있는지 알아야 한다.
+- [✨API에 대해서 설명해주세요](https://github.com/99sStudy/CS-Interview-Master/blob/main/%EA%B0%9C%EB%B0%9C%EC%9E%90%20%EA%B8%B0%EB%B3%B8%20CS/ShinQA-3.md) - API란 무엇이고, REST API, RESTful API가 무엇인지 정확히 이해해야 한다.
+
+## React 관련 꼬리 질문
 
 
-### React
-
-
-### 자바스크립트
+## 자바스크립트 관련 꼬리 질문
 
 
