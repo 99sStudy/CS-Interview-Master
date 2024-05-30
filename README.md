@@ -1,8 +1,8 @@
-# 🌐 Study to CS-Interview 🌐
-<img src="https://github.com/99sStudy/CS-Interview-Master/assets/90139306/5454919c-76ab-4d5f-bd61-7260d0c31a08" widtt="100" height="300" />
+# 🌐 Study to FrontEnd-Interview 🌐
+<img src="https://github.com/99sStudy/CS-Interview-Master/assets/90139306/934c151f-800c-4853-8341-9f5d51425413" widtt="100" height="300" />
 </br>
-4명의 팀원으로 구성되어 CS 전공 지식을 학습하고 </br>
-CS 관련 면접을 준비하는 스터디입니다. </br>
+4명의 팀원으로 구성되어 전공 지식을 학습하고 </br>
+면접을 준비하는 스터디입니다. </br>
 
 
 ## 일정
@@ -19,10 +19,11 @@ CS 관련 면접을 준비하는 스터디입니다. </br>
 4. 질문에 대한 답변이 어렵다면 패스합니다.
 5. 모든 모의 인터뷰가 끝나면 자신이 받았던 질문을 정리합니다.
 
-CS 분량 기준
+꼬리질문 분량 기준
 - PDF 3개 챕터 중 꼬리질문 1개
-- 리액트 1개 챕터 기준 꼬리질문 2개
+- 리액트 1개 챕터 기준 꼬리질문 1개
 - 자바스크립트 질문 1개
+- FrontEnd 질문 1개
 
 
 ## 💭CS 관련 꼬리 질문
@@ -31,9 +32,10 @@ CS 분량 기준
 - [✨XML이 무엇인지 설명해주세요.](https://github.com/99sStudy/CS-Interview-Master/blob/main/%EA%B0%9C%EB%B0%9C%EC%9E%90%20%EA%B8%B0%EB%B3%B8%20CS/ShinQA-2.md) - XML이 무엇인지, 어떻게 쓰이는지 JSON과 HTML과 무슨차이가 있는지 알아야 한다.
 - [✨API에 대해서 설명해주세요](https://github.com/99sStudy/CS-Interview-Master/blob/main/%EA%B0%9C%EB%B0%9C%EC%9E%90%20%EA%B8%B0%EB%B3%B8%20CS/ShinQA-3.md) - API란 무엇이고, REST API, RESTful API가 무엇인지 정확히 이해해야 한다.
 
-## React 관련 꼬리 질문
+## 💭React 관련 꼬리 질문
 
 
-## 자바스크립트 관련 꼬리 질문
+## 💭자바스크립트 관련 꼬리 질문
 
 
+## 💭FrontEnd 관련 꼬리 질문
