@@ -31,11 +31,14 @@
 - [✨JSON이 무엇인가요?](https://github.com/99sStudy/CS-Interview-Master/blob/main/%EA%B0%9C%EB%B0%9C%EC%9E%90%20%EA%B8%B0%EB%B3%B8%20CS/ShinQA-1.md)  - JSON이 무엇인지 정확히 알자.
 - [✨XML이 무엇인지 설명해주세요.](https://github.com/99sStudy/CS-Interview-Master/blob/main/%EA%B0%9C%EB%B0%9C%EC%9E%90%20%EA%B8%B0%EB%B3%B8%20CS/ShinQA-2.md) - XML이 무엇인지, 어떻게 쓰이는지 JSON과 HTML과 무슨차이가 있는지 알아야 한다.
 - [✨API에 대해서 설명해주세요](https://github.com/99sStudy/CS-Interview-Master/blob/main/%EA%B0%9C%EB%B0%9C%EC%9E%90%20%EA%B8%B0%EB%B3%B8%20CS/ShinQA-3.md) - API란 무엇이고, REST API, RESTful API가 무엇인지 정확히 이해해야 한다.
+- [✨인터럽트에 대해서 설명해주세요](https://github.com/99sStudy/CS-Interview-Master/blob/main/%EA%B0%9C%EB%B0%9C%EC%9E%90%20%EA%B8%B0%EB%B3%B8%20CS/%EC%9D%B8%ED%84%B0%EB%9F%BD%ED%8A%B8.md)- 인터럽트가 무엇이고, 어떻게 발생하는 것인지 알아야 한다.
 
 ## 💭React 관련 꼬리 질문
 
 
 ## 💭자바스크립트 관련 꼬리 질문
 
+- [✨실행컨텍스트에 대해서 설명해주세요](https://github.com/99sStudy/CS-Interview-Master/blob/main/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8/%EC%8B%A4%ED%96%89%EC%BB%A8%ED%85%8D%EC%8A%A4%ED%8A%B8.md) - 실행컨텍스트는 어떻게 구성되어 있는지 정확하게 알아야한다.
+- [✨클로저란 무엇인가요?](https://github.com/99sStudy/CS-Interview-Master/blob/main/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8/%ED%81%B4%EB%A1%9C%EC%A0%80.md) - 클로저에 관련된 꼬리 질문을 대비하자.
 
 ## 💭FrontEnd 관련 꼬리 질문
