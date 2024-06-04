@@ -28,9 +28,9 @@
 
 ## 💭CS 관련 꼬리 질문
 
-- [✨JSON이 무엇인가요?](https://github.com/99sStudy/CS-Interview-Master/blob/main/%EA%B0%9C%EB%B0%9C%EC%9E%90%20%EA%B8%B0%EB%B3%B8%20CS/ShinQA-1.md)  - JSON이 무엇인지 정확히 알자.
-- [✨XML이 무엇인지 설명해주세요.](https://github.com/99sStudy/CS-Interview-Master/blob/main/%EA%B0%9C%EB%B0%9C%EC%9E%90%20%EA%B8%B0%EB%B3%B8%20CS/ShinQA-2.md) - XML이 무엇인지, 어떻게 쓰이는지 JSON과 HTML과 무슨차이가 있는지 알아야 한다.
-- [✨API에 대해서 설명해주세요](https://github.com/99sStudy/CS-Interview-Master/blob/main/%EA%B0%9C%EB%B0%9C%EC%9E%90%20%EA%B8%B0%EB%B3%B8%20CS/ShinQA-3.md) - API란 무엇이고, REST API, RESTful API가 무엇인지 정확히 이해해야 한다.
+- [✨JSON이 무엇인가요?](https://github.com/99sStudy/CS-Interview-Master/blob/main/%EA%B0%9C%EB%B0%9C%EC%9E%90%20%EA%B8%B0%EB%B3%B8%20CS/JSON.md)  - JSON이 무엇인지 정확히 알자.
+- [✨XML이 무엇인지 설명해주세요.](https://github.com/99sStudy/CS-Interview-Master/blob/main/%EA%B0%9C%EB%B0%9C%EC%9E%90%20%EA%B8%B0%EB%B3%B8%20CS/XML.md) - XML이 무엇인지, 어떻게 쓰이는지 JSON과 HTML과 무슨차이가 있는지 알아야 한다.
+- [✨API에 대해서 설명해주세요](https://github.com/99sStudy/CS-Interview-Master/blob/main/%EA%B0%9C%EB%B0%9C%EC%9E%90%20%EA%B8%B0%EB%B3%B8%20CS/API.md) - API란 무엇이고, REST API, RESTful API가 무엇인지 정확히 이해해야 한다.
 - [✨인터럽트에 대해서 설명해주세요](https://github.com/99sStudy/CS-Interview-Master/blob/main/%EA%B0%9C%EB%B0%9C%EC%9E%90%20%EA%B8%B0%EB%B3%B8%20CS/%EC%9D%B8%ED%84%B0%EB%9F%BD%ED%8A%B8.md)- 인터럽트가 무엇이고, 어떻게 발생하는 것인지 알아야 한다.
 - [✨가상메모리에 대해서 설명해주세요.](https://github.com/99sStudy/CS-Interview-Master/blob/main/%EA%B0%9C%EB%B0%9C%EC%9E%90%20%EA%B8%B0%EB%B3%B8%20CS/%EA%B0%80%EC%83%81%EB%A9%94%EB%AA%A8%EB%A6%AC.md) - 가상 메모리, 페이지 폴트, 스와핑, 스레싱에 대해서 알아야 한다.
 - [✨메모리 계층 구조에 대해서 설명해주세요.](https://github.com/99sStudy/CS-Interview-Master/blob/main/%EA%B0%9C%EB%B0%9C%EC%9E%90%20%EA%B8%B0%EB%B3%B8%20CS/%EB%A9%94%EB%AA%A8%EB%A6%AC%EA%B3%84%EC%B8%B5.md) - 메모리 계층 구조가 뭔지, 메모리 계층 구조가 왜 필요한지 알아야 한다.
@@ -38,8 +38,8 @@
 
 ## 💭React 관련 꼬리 질문
 
-- [가상DOM에 대해서 설명해주세요.](https://github.com/99sStudy/CS-Interview-Master/blob/main/%EB%A6%AC%EC%95%A1%ED%8A%B8/%EA%B0%80%EC%83%81DOM.md) - 가상 DOM이 무엇인지 사전적 정의를 알고, 왜 쓰는지 알아야 한다.
-- [리액트 렌더링 프로세스에 대해서 설명해주세요.](https://github.com/99sStudy/CS-Interview-Master/blob/main/%EB%A6%AC%EC%95%A1%ED%8A%B8/%EB%A6%AC%EC%95%A1%ED%8A%B8%EB%A0%8C%EB%8D%94%EB%A7%81%EA%B3%BC%EC%A0%95.md) - 리액트 렌더링 프로세스에 대해서 정확히 알고, 왜 이런 과정이 진행되는지, 가상 DOM과 파이버에 대해서 알아야 한다.
+- [✨가상DOM에 대해서 설명해주세요.](https://github.com/99sStudy/CS-Interview-Master/blob/main/%EB%A6%AC%EC%95%A1%ED%8A%B8/%EA%B0%80%EC%83%81DOM.md) - 가상 DOM이 무엇인지 사전적 정의를 알고, 왜 쓰는지 알아야 한다.
+- [✨리액트 렌더링 프로세스에 대해서 설명해주세요.](https://github.com/99sStudy/CS-Interview-Master/blob/main/%EB%A6%AC%EC%95%A1%ED%8A%B8/%EB%A6%AC%EC%95%A1%ED%8A%B8%EB%A0%8C%EB%8D%94%EB%A7%81%EA%B3%BC%EC%A0%95.md) - 리액트 렌더링 프로세스에 대해서 정확히 알고, 왜 이런 과정이 진행되는지, 가상 DOM과 파이버에 대해서 알아야 한다.
 
 ## 💭자바스크립트 관련 꼬리 질문
 
