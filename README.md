@@ -38,7 +38,8 @@
 - [✨프로세스와 스레드에 대해서 설명해주세요.](https://github.com/99sStudy/CS-Interview-Master/blob/main/%EA%B0%9C%EB%B0%9C%EC%9E%90%20%EA%B8%B0%EB%B3%B8%20CS/%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4%EC%99%80%20%EC%8A%A4%EB%A0%88%EB%93%9C.md) - 프로세스와 스레드의 차이에 대해서 정확하게 알아야 한다.
 - [✨IPC가 무엇인가요?](https://github.com/99sStudy/CS-Interview-Master/blob/main/%EA%B0%9C%EB%B0%9C%EC%9E%90%20%EA%B8%B0%EB%B3%B8%20CS/IPC.md) - 프로세스가 서로 통신하기 위해 사용하는 IPC에 대해서 알아야 한다.
 - [✨뮤텍스와 세마포어에 대해서 설명해주세요.](https://github.com/99sStudy/CS-Interview-Master/blob/main/%EA%B0%9C%EB%B0%9C%EC%9E%90%20%EA%B8%B0%EB%B3%B8%20CS/%EB%AE%A4%ED%85%8D%EC%8A%A4%EC%99%80%20%EC%84%B8%EB%A7%88%ED%8F%AC%EC%96%B4.md) - 뮤텍스와 세마포어가 어떤 역할을 하는지 알아야 한다.
-- 
+- [✨프로세스와 스레드에 대해서 설명해주세요.](https://github.com/99sStudy/CS-Interview-Master/blob/main/%EA%B0%9C%EB%B0%9C%EC%9E%90%20%EA%B8%B0%EB%B3%B8%20CS/%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4%EC%99%80%EC%8A%A4%EB%A0%88%EB%93%9C.md) - 프로세스와 스레드에 대해서 알고 그 차이점, 메모리 구조. 정적할당 동적할당에 대해서  알아야 한다.
+  
 ## 💭React 관련 꼬리 질문
 
 - [✨가상DOM에 대해서 설명해주세요.](https://github.com/99sStudy/CS-Interview-Master/blob/main/%EB%A6%AC%EC%95%A1%ED%8A%B8/%EA%B0%80%EC%83%81DOM.md) - 가상 DOM이 무엇인지 사전적 정의를 알고, 왜 쓰는지 알아야 한다.
@@ -61,4 +62,6 @@
 - [✨실행컨텍스트에 대해서 설명해주세요](https://github.com/99sStudy/CS-Interview-Master/blob/main/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8/%EC%8B%A4%ED%96%89%EC%BB%A8%ED%85%8D%EC%8A%A4%ED%8A%B8.md) - 실행컨텍스트는 어떻게 구성되어 있는지 정확하게 알아야한다.
 - [✨클로저란 무엇인가요?](https://github.com/99sStudy/CS-Interview-Master/blob/main/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8/%ED%81%B4%EB%A1%9C%EC%A0%80.md) - 클로저에 관련된 꼬리 질문을 대비하자.
 - [✨이벤트 루프에 대해서 설명해주세요.](https://github.com/99sStudy/CS-Interview-Master/blob/main/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8/%EC%9D%B4%EB%B2%A4%ED%8A%B8%EB%A3%A8%ED%94%84.md) - 이벤트 루프에 대해서 알고, 이어지는 꼬리 질문에 대비해야 한다.
+- [✨mutable과 immutable에 대해 설명해주세요.](https://github.com/99sStudy/CS-Interview-Master/blob/main/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8/mutable%EA%B3%BCImmutable.md) - mutable과 immutable에 대해서 알고, **불변성**을 유지하려면 어떻게 해야하는지 알아야 한다.
+
 ## 💭FrontEnd 관련 꼬리 질문
