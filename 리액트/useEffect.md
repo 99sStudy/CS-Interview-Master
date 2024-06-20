@@ -69,17 +69,14 @@ function useEffect(callback, dependencies) {
 }
 ```
 
-1. 여러개의 useEffect를 관리하기 위한 배열과 index를 전역에 선언한다.2. useEffect는 매개변수로 callback과 dependencies를 받는다.,3. 클로저를 통해 index를 가둔다.
-
-2. 이전 훅의 정보가 있는지 index로 배열을 확인한다.
-
-3. 이전 훅 정보가 있다면 이전 훅 정보의 dependencies값과 현재 dependencies의 값을 Object.is를 이용해 얕은 비교를 수행해 변경이 일어났는지 true/false를 반환하고, 이전 훅 정보가 없다면 최초 실행이므로 변경이 일어난 것으로 간주해 true를 반환한다.
-
-4. 변경이 일어났다면 매개변수로 받아온 callback함수를 실행한다.
-
-5. 현재 dependencies를 다시 useEffect를 관리하는 배열에 클로저로 가둔 index로 저장한다.
-
-6. 다음 훅이 생성될 때를 대비해 index를 +1 해준다.
+1. 여러개의 useEffect를 관리하기 위한 배열과 index를 전역에 선언한다.
+2.  useEffect는 매개변수로 callback과 dependencies를 받는다.,
+3. 클로저를 통해 index를 가둔다.
+4. 이전 훅의 정보가 있는지 index로 배열을 확인한다.
+5. 이전 훅 정보가 있다면 이전 훅 정보의 dependencies값과 현재 dependencies의 값을 Object.is를 이용해 얕은 비교를 수행해 변경이 일어났는지 true/false를 반환하고, 이전 훅 정보가 없다면 최초 실행이므로 변경이 일어난 것으로 간주해 true를 반환한다.
+6. 변경이 일어났다면 매개변수로 받아온 callback함수를 실행한다.
+7. 현재 dependencies를 다시 useEffect를 관리하는 배열에 클로저로 가둔 index로 저장한다.
+8. 다음 훅이 생성될 때를 대비해 index를 +1 해준다.
 
 ### 🤔useEffect를 사용할 때 주의할 점에 대해서 아시는대로 말씀해주세요.
 
