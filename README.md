@@ -26,19 +26,42 @@
 - FrontEnd 질문 1개
 
 
-## 💭CS 관련 꼬리 질문
+## 💭개발자 기본 CS
 
 - [✨JSON이 무엇인가요?](https://github.com/99sStudy/CS-Interview-Master/blob/main/%EA%B0%9C%EB%B0%9C%EC%9E%90%20%EA%B8%B0%EB%B3%B8%20CS/JSON.md)  - JSON이 무엇인지 정확히 알자.
 - [✨XML이 무엇인지 설명해주세요.](https://github.com/99sStudy/CS-Interview-Master/blob/main/%EA%B0%9C%EB%B0%9C%EC%9E%90%20%EA%B8%B0%EB%B3%B8%20CS/XML.md) - XML이 무엇인지, 어떻게 쓰이는지 JSON과 HTML과 무슨차이가 있는지 알아야 한다.
 - [✨API에 대해서 설명해주세요](https://github.com/99sStudy/CS-Interview-Master/blob/main/%EA%B0%9C%EB%B0%9C%EC%9E%90%20%EA%B8%B0%EB%B3%B8%20CS/API.md) - API란 무엇이고, REST API, RESTful API가 무엇인지 정확히 이해해야 한다.
+
+
+## 💭운영체제
+
+- [✨운영체제란 무엇인가요?](https://github.com/99sStudy/CS-Interview-Master/blob/main/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C.md) - 운영체제, 커널, 시스템콜, 유저모드, 커널모드에 대해서 알아야 한다.
 - [✨인터럽트에 대해서 설명해주세요](https://github.com/99sStudy/CS-Interview-Master/blob/main/%EA%B0%9C%EB%B0%9C%EC%9E%90%20%EA%B8%B0%EB%B3%B8%20CS/%EC%9D%B8%ED%84%B0%EB%9F%BD%ED%8A%B8.md)- 인터럽트가 무엇이고, 어떻게 발생하는 것인지 알아야 한다.
 - [✨가상메모리에 대해서 설명해주세요.](https://github.com/99sStudy/CS-Interview-Master/blob/main/%EA%B0%9C%EB%B0%9C%EC%9E%90%20%EA%B8%B0%EB%B3%B8%20CS/%EA%B0%80%EC%83%81%EB%A9%94%EB%AA%A8%EB%A6%AC.md) - 가상 메모리, 페이지 폴트, 스와핑, 스레싱에 대해서 알아야 한다.
 - [✨메모리 계층 구조에 대해서 설명해주세요.](https://github.com/99sStudy/CS-Interview-Master/blob/main/%EA%B0%9C%EB%B0%9C%EC%9E%90%20%EA%B8%B0%EB%B3%B8%20CS/%EB%A9%94%EB%AA%A8%EB%A6%AC%EA%B3%84%EC%B8%B5.md) - 메모리 계층 구조가 뭔지, 메모리 계층 구조가 왜 필요한지 알아야 한다.
 - [✨페이지 교체 알고리즘이 무엇인가요?](https://github.com/99sStudy/CS-Interview-Master/blob/main/%EA%B0%9C%EB%B0%9C%EC%9E%90%20%EA%B8%B0%EB%B3%B8%20CS/%ED%8E%98%EC%9D%B4%EC%A7%80%EA%B5%90%EC%B2%B4%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98.md) - 페이지 교체 알고리즘의 사전적 정의를 알고, 종류를 알아야 한다.
 - [✨프로세스와 스레드에 대해서 설명해주세요.](https://github.com/99sStudy/CS-Interview-Master/blob/main/%EA%B0%9C%EB%B0%9C%EC%9E%90%20%EA%B8%B0%EB%B3%B8%20CS/%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4%EC%99%80%20%EC%8A%A4%EB%A0%88%EB%93%9C.md) - 프로세스와 스레드의 차이에 대해서 정확하게 알아야 한다.
+- [✨프로세스와 스레드에 대해서 설명해주세요.](https://github.com/99sStudy/CS-Interview-Master/blob/main/%EA%B0%9C%EB%B0%9C%EC%9E%90%20%EA%B8%B0%EB%B3%B8%20CS/%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4%EC%99%80%EC%8A%A4%EB%A0%88%EB%93%9C.md) - 프로세스와 스레드에 대해서 알고 그 차이점, 메모리 구조. 정적할당 동적할당에 대해서 알아야 한다.
+- [✨PCB가 무엇인가요?](https://github.com/99sStudy/CS-Interview-Master/blob/main/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/PCB.md) - PCB가 무엇인지 알아야 한다.
+- [✨컨텍스트 스위칭이 무엇인가요?](https://github.com/99sStudy/CS-Interview-Master/blob/main/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/%EC%BB%A8%ED%85%8D%EC%8A%A4%ED%8A%B8%EC%8A%A4%EC%9C%84%EC%B9%AD.md) - 컨텍스트 스위칭에 대해서 알아야 한다.
+- [✨프로세스의 상태에 대해서 설명해주세요.](https://github.com/99sStudy/CS-Interview-Master/blob/main/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4%EC%9D%98%EC%83%81%ED%83%9C.md) - 프로세스 상태에 대해서 알아야 한다.
+- [✨브라우저는 어떤 아키텍처를 가진 소프트웨어인지 아시나요?](https://github.com/99sStudy/CS-Interview-Master/blob/main/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/%EB%A9%80%ED%8B%B0%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4%2C%EB%A9%80%ED%8B%B0%EC%8A%A4%EB%A0%88%EB%93%9C.md) - 멀티 프로세싱,멀티 스레딩의 차이와 멀티프로세스와 멀티 스레드의 차이에 대해서 알아야 한다.
 - [✨IPC가 무엇인가요?](https://github.com/99sStudy/CS-Interview-Master/blob/main/%EA%B0%9C%EB%B0%9C%EC%9E%90%20%EA%B8%B0%EB%B3%B8%20CS/IPC.md) - 프로세스가 서로 통신하기 위해 사용하는 IPC에 대해서 알아야 한다.
+- [✨공유자원과 경쟁상태 그리고 임계영역에 대해서 설명해주세요.](https://github.com/99sStudy/CS-Interview-Master/blob/main/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/%EA%B3%B5%EC%9C%A0%EC%9E%90%EC%9B%90%2C%EA%B2%BD%EC%9F%81%EC%83%81%ED%83%9C%2C%EC%9E%84%EA%B3%84%EC%98%81%EC%97%AD.md) - 공유 자원, 경쟁 상태, 임계 영역, 데이터 정합성과 데이터 무결성 그리고 꼬리 질문으로 나오는 뮤텍스, 세마포어, 모니터에 대해서 알아야 한다.
 - [✨뮤텍스와 세마포어에 대해서 설명해주세요.](https://github.com/99sStudy/CS-Interview-Master/blob/main/%EA%B0%9C%EB%B0%9C%EC%9E%90%20%EA%B8%B0%EB%B3%B8%20CS/%EB%AE%A4%ED%85%8D%EC%8A%A4%2C%EC%84%B8%EB%A7%88%ED%8F%AC%EC%96%B4%2C%EB%AA%A8%EB%8B%88%ED%84%B0.md) - 뮤텍스와 세마포어가 어떤 역할을 하는지 알아야 한다.
-- [✨프로세스와 스레드에 대해서 설명해주세요.](https://github.com/99sStudy/CS-Interview-Master/blob/main/%EA%B0%9C%EB%B0%9C%EC%9E%90%20%EA%B8%B0%EB%B3%B8%20CS/%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4%EC%99%80%EC%8A%A4%EB%A0%88%EB%93%9C.md) - 프로세스와 스레드에 대해서 알고 그 차이점, 메모리 구조. 정적할당 동적할당에 대해서  알아야 한다.
+- [✨교착상태가 무엇인가요?](https://github.com/99sStudy/CS-Interview-Master/blob/main/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/%EA%B5%90%EC%B0%A9%EC%83%81%ED%83%9C.md) - 교착 상태에 대해서 알고, 발생 조건, 해결 방법에 대해서 알아야 한다.
+- [✨CPU 스케줄링 알고리즘 중 비선점형 방식, 선점형 방식의 특징은 무엇인가요?](https://github.com/99sStudy/CS-Interview-Master/blob/main/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/CPU%EC%8A%A4%EC%BC%80%EC%A4%84%EB%A7%81.md) - CPU 스케줄링 방식인 비선점형과 선점형에 대해서 알아야 한다.
+- [✨캐시란 무엇인가요?](https://github.com/99sStudy/CS-Interview-Master/blob/main/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/%EC%BA%90%EC%8B%9C.md) - 캐시에 대해서 알아야 한다.
+- [✨메모리할당 방법 중 연속 할당, 불연속 할당에 대해서 설명해주세요.](https://github.com/99sStudy/CS-Interview-Master/blob/main/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/%EB%A9%94%EB%AA%A8%EB%A6%AC%ED%95%A0%EB%8B%B9%EB%B0%A9%EB%B2%95(%EC%97%B0%EC%86%8D%2C%EB%B6%88%EC%97%B0%EC%86%8D).md) - 메모리 할당 방법 중 연속 할당과 불연속 할당에 대해서 알아야 한다.
+- [✨convoy effect(호위 효과)와 stravation(기아)의 차이는 무엇인가요?](https://github.com/99sStudy/CS-Interview-Master/blob/main/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/%ED%98%B8%EC%9C%84%ED%9A%A8%EA%B3%BC%EC%99%80%EA%B8%B0%EC%95%84%ED%98%84%EC%83%81%EC%9D%98%EC%B0%A8%EC%9D%B4.md) - 호위 효과와 기아 현상의 차이점에 대해서 알아야 한다.
+- [✨busy_wait란 무엇인가요?](https://github.com/99sStudy/CS-Interview-Master/blob/main/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/busy_wait.md) - busy wait가 무엇인지 알아야 한다.
+- [✨운영체제와 펌웨어의 차이가 무엇인가요?](https://github.com/99sStudy/CS-Interview-Master/blob/main/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%EC%99%80%ED%8E%8C%EC%9B%A8%EC%96%B4%EC%9D%98%EC%B0%A8%EC%9D%B4.md) - 운영체제와 펌웨어의 차이에 대해서 알아야 한다.
+
+
+## 💭HTTP
+
+- [✨HTTP에서 중요한 부분들을 간단하게 알아보자!](https://github.com/99sStudy/CS-Interview-Master/blob/main/HTTP/%ED%94%84%EB%A1%A4%EB%A1%9C%EA%B7%B8.md) - HTTP에서 중요한 부분들을 간단하게 정리해봤습니다.
+- [✨URL이란?](https://github.com/99sStudy/CS-Interview-Master/blob/main/HTTP/URL%EA%B3%BC%EB%A6%AC%EC%86%8C%EC%8A%A4.md) - URL이 무엇인지, 장단점은 무엇인지 알고, 구성요소에 대해서 알아야 한다.
   
 ## 💭React 관련 꼬리 질문
 
