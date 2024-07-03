@@ -62,7 +62,12 @@
 
 - [✨HTTP에서 중요한 부분들을 간단하게 알아보자!](https://github.com/99sStudy/CS-Interview-Master/blob/main/HTTP/%ED%94%84%EB%A1%A4%EB%A1%9C%EA%B7%B8.md) - HTTP에서 중요한 부분들을 간단하게 정리해봤습니다.
 - [✨URL이란?](https://github.com/99sStudy/CS-Interview-Master/blob/main/HTTP/URL%EA%B3%BC%EB%A6%AC%EC%86%8C%EC%8A%A4.md) - URL이 무엇인지, 장단점은 무엇인지 알고, 구성요소에 대해서 알아야 한다.
-  
+- [✨상태코드가 무엇이 있는지 설명해주실 수 있나요?](https://github.com/99sStudy/CS-Interview-Master/blob/main/HTTP/%EC%83%81%ED%83%9C%EC%BD%94%EB%93%9C.md) - 상태코드가 각각 무엇을 의미하는지 알아야한다.
+- [✨GET과 POST의 차이에 대해서 설명해주세요.](https://github.com/99sStudy/CS-Interview-Master/blob/main/HTTP/GET%EA%B3%BCPOST%EC%B0%A8%EC%9D%B4.md) - GET과 POST의 다양한 차이에 대해서 알아야 한다.
+- [✨PUT과 PATCH의 차이에 대해서 설명해주세요.](https://github.com/99sStudy/CS-Interview-Master/blob/main/HTTP/PUT%EA%B3%BC%20PATCH%EC%B0%A8%EC%9D%B4.md) - PUT과 PATCH의 차이를 정확히 알아야 한다.
+- [✨HTTP에서 인바운드,아웃바운드와 업스트림, 다운스트림에 대해서 설명해주세요.](https://github.com/99sStudy/CS-Interview-Master/blob/main/HTTP/HTTP%EB%A9%94%EC%8B%9C%EC%A7%80.md) - HTTP에서 생소한 용어에 대해서 알고 HTTP 메시지의 구성요소에 대해서 알아야 한다.
+
+
 ## 💭React 관련 꼬리 질문
 
 - [✨가상DOM에 대해서 설명해주세요.](https://github.com/99sStudy/CS-Interview-Master/blob/main/%EB%A6%AC%EC%95%A1%ED%8A%B8/%EA%B0%80%EC%83%81DOM.md) - 가상 DOM이 무엇인지 사전적 정의를 알고, 왜 쓰는지 알아야 한다.
@@ -79,6 +84,7 @@
 - [✨useDebugValue에 대해서 설명해주세요.](https://github.com/99sStudy/CS-Interview-Master/blob/main/%EB%A6%AC%EC%95%A1%ED%8A%B8/useDebugValue.md) - useDebugValue에 대해서는 간단하게 알고만 있도록 하자.
 - [✨훅의 규칙에 대해서 아시는대로 설명해주세요.](https://github.com/99sStudy/CS-Interview-Master/blob/main/%EB%A6%AC%EC%95%A1%ED%8A%B8/%ED%9B%85%EC%9D%98%20%EA%B7%9C%EC%B9%99.md) - 훅의 4가지 규칙에 대해서 알고, 왜 그러한 규칙을 가지는지 알아야 한다.
 - [✨사용자 정의 훅과 고차 컴포넌트의 차이에 대해서 설명해주세요.](https://github.com/99sStudy/CS-Interview-Master/blob/main/%EB%A6%AC%EC%95%A1%ED%8A%B8/%EC%82%AC%EC%9A%A9%EC%9E%90%EC%A0%95%EC%9D%98%ED%9B%85%EA%B3%BC%EA%B3%A0%EC%B0%A8%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8.md) - 사용자 정의 훅과 고차 컴포넌트의 공통점과 차이점에 대해서 알아야 한다.
+- [✨Tanstack-Query를 사용하셨는데 장점이 무엇인가요?](https://github.com/99sStudy/CS-Interview-Master/blob/main/%EB%A6%AC%EC%95%A1%ED%8A%B8/TanstackQuery.md) - TanstackQuery가 무엇인지 알고, 왜 사용하는지, 왜 등장했는지 알아야 한다.
 
 ## 💭자바스크립트 관련 꼬리 질문
 
@@ -87,4 +93,5 @@
 - [✨이벤트 루프에 대해서 설명해주세요.](https://github.com/99sStudy/CS-Interview-Master/blob/main/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8/%EC%9D%B4%EB%B2%A4%ED%8A%B8%EB%A3%A8%ED%94%84.md) - 이벤트 루프에 대해서 알고, 이어지는 꼬리 질문에 대비해야 한다.
 - [✨mutable과 immutable에 대해 설명해주세요.](https://github.com/99sStudy/CS-Interview-Master/blob/main/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8/mutable%EA%B3%BCImmutable.md) - mutable과 immutable에 대해서 알고, **불변성**을 유지하려면 어떻게 해야하는지 알아야 한다.
 - [✨프로토타입이 무엇인가요?](https://github.com/99sStudy/CS-Interview-Master/blob/main/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8/%ED%94%84%EB%A1%9C%ED%86%A0%ED%83%80%EC%9E%85.md) - 프로토 타입이 무엇인지 알고, 프로토 타입 체인, OOP에 대해서 알아야 한다.
+
 ## 💭FrontEnd 관련 꼬리 질문
