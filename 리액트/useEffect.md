@@ -10,6 +10,26 @@
 
 ## 🔁꼬리질문
 
+### ⭐useEffect의 실행 순서에 대해 설명해주세요.
+
+useEffect가 실행되는 순서는
+
+- 첫 번째, 컴포넌트가 렌더링 되면 useEffect의 내용이 실행되기 전의 화면이 먼저 그려집니다.
+
+- 두 번째, useEffect 내의 콜백 함수가 실행되며,
+
+- 세 번째, useEffect의 두번째 매개변수로 전달된 의존성 배열이 체크가 됩니다.
+
+- 네 번째, 만약 의존성 배열에 들어있는 값이 변경되면 컴포넌트가 리-렌더링되고 useEffect의 내용이 다시 실행됩니다.
+
+요약하자면 컴포넌트가 마운트 될 때 setup 함수가 호출되고, 그 이후 컴포넌트의 상태나 속성이 변경될 때 실행되고, 변경 이전 값으로 clean up 함수가 호출되고 변경 이후 값으로 setup 함수가 호출됩니다.
+
+1. 컴포넌트 마운트 시 setup 함수 호출
+2. props/state 업데이트
+3. 리렌더링 발생
+4. 변경 이전 값으로 cleanup 함수 호출
+5. 변경 이후 값으로 setup 함수 호출
+
 ### 🤔useEffect 클린업 함수의 목적에 대해서 설명해주세요.
 
 클린업함수는 컴포넌트가 사라질 때(unmount 시점), 특정 값이 변경되기 직전(deps update 직전)에 실행할 작업을 지정할 수 있다.
@@ -70,7 +90,7 @@ function useEffect(callback, dependencies) {
 ```
 
 1. 여러개의 useEffect를 관리하기 위한 배열과 index를 전역에 선언한다.
-2.  useEffect는 매개변수로 callback과 dependencies를 받는다.,
+2. useEffect는 매개변수로 callback과 dependencies를 받는다.,
 3. 클로저를 통해 index를 가둔다.
 4. 이전 훅의 정보가 있는지 index로 배열을 확인한다.
 5. 이전 훅 정보가 있다면 이전 훅 정보의 dependencies값과 현재 dependencies의 값을 Object.is를 이용해 얕은 비교를 수행해 변경이 일어났는지 true/false를 반환하고, 이전 훅 정보가 없다면 최초 실행이므로 변경이 일어난 것으로 간주해 true를 반환한다.
