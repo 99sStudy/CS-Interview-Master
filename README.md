@@ -31,7 +31,11 @@
 - [✨JSON이 무엇인가요?](https://github.com/99sStudy/CS-Interview-Master/blob/main/%EA%B0%9C%EB%B0%9C%EC%9E%90%20%EA%B8%B0%EB%B3%B8%20CS/JSON.md)  - JSON이 무엇인지 정확히 알자.
 - [✨XML이 무엇인지 설명해주세요.](https://github.com/99sStudy/CS-Interview-Master/blob/main/%EA%B0%9C%EB%B0%9C%EC%9E%90%20%EA%B8%B0%EB%B3%B8%20CS/XML.md) - XML이 무엇인지, 어떻게 쓰이는지 JSON과 HTML과 무슨차이가 있는지 알아야 한다.
 - [✨API에 대해서 설명해주세요](https://github.com/99sStudy/CS-Interview-Master/blob/main/%EA%B0%9C%EB%B0%9C%EC%9E%90%20%EA%B8%B0%EB%B3%B8%20CS/API.md) - API란 무엇이고, REST API, RESTful API가 무엇인지 정확히 이해해야 한다.
-
+- [✨SPA란?](https://github.com/99sStudy/CS-Interview-Master/blob/main/%EA%B0%9C%EB%B0%9C%EC%9E%90%20%EA%B8%B0%EB%B3%B8%20CS/SPA.md) - SPA가 무엇이고, 장단점에 대해서 알아야 한다.
+- [✨SSR이란?](https://github.com/99sStudy/CS-Interview-Master/blob/main/%EA%B0%9C%EB%B0%9C%EC%9E%90%20%EA%B8%B0%EB%B3%B8%20CS/SSR.md) - SSR이란 무엇이고, 장단점에 대해서 알아야 한다.
+- [✨SOLID원칙이란 무엇인가요?](https://github.com/99sStudy/CS-Interview-Master/blob/main/%EA%B0%9C%EB%B0%9C%EC%9E%90%20%EA%B8%B0%EB%B3%B8%20CS/%EA%B0%9D%EC%B2%B4%EC%A7%80%ED%96%A5%EC%84%A4%EA%B3%84%EC%9D%985%EA%B0%80%EC%A7%80%EC%9B%90%EC%B9%99.md) - 객체지향설계의 원칙 5가지에 대해서 알고 있어야 한다.
+- [✨객체 지향 프로그래밍에 대해 설명해 주세요.](https://github.com/99sStudy/CS-Interview-Master/blob/main/%EA%B0%9C%EB%B0%9C%EC%9E%90%20%EA%B8%B0%EB%B3%B8%20CS/%EA%B0%9D%EC%B2%B4%EC%A7%80%ED%96%A5%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D.md) - OOP가 무엇인지, 장단점, 객체지향의 특징 4가지에 대해서 알고 있어야 한다.
+- [✨컴파일 트랜스파일, 인터프리터에 대해서 설명해주세요.](https://github.com/99sStudy/CS-Interview-Master/blob/main/%EA%B0%9C%EB%B0%9C%EC%9E%90%20%EA%B8%B0%EB%B3%B8%20CS/%EC%BB%B4%ED%8C%8C%EC%9D%BC%EB%9F%AC%2C%ED%8A%B8%EB%9E%9C%EC%8A%A4%ED%8C%8C%EC%9D%BC%2C%EC%9D%B8%ED%84%B0%ED%94%84%EB%A6%AC%ED%84%B0.md) - 컴파일, 트랜스파일, 인터프리터에 대해서 알고 있어야 한다.
 
 ## 💭운영체제
 
@@ -66,8 +70,14 @@
 - [✨GET과 POST의 차이에 대해서 설명해주세요.](https://github.com/99sStudy/CS-Interview-Master/blob/main/HTTP/GET%EA%B3%BCPOST%EC%B0%A8%EC%9D%B4.md) - GET과 POST의 다양한 차이에 대해서 알아야 한다.
 - [✨PUT과 PATCH의 차이에 대해서 설명해주세요.](https://github.com/99sStudy/CS-Interview-Master/blob/main/HTTP/PUT%EA%B3%BC%20PATCH%EC%B0%A8%EC%9D%B4.md) - PUT과 PATCH의 차이를 정확히 알아야 한다.
 - [✨HTTP에서 인바운드,아웃바운드와 업스트림, 다운스트림에 대해서 설명해주세요.](https://github.com/99sStudy/CS-Interview-Master/blob/main/HTTP/HTTP%EB%A9%94%EC%8B%9C%EC%A7%80.md) - HTTP에서 생소한 용어에 대해서 알고 HTTP 메시지의 구성요소에 대해서 알아야 한다.
+- [✨웹캐시란 무엇인가요?]() - 생소한 웹 캐시에 대해서 인지하고 있어야 한다.
+- [✨TCP란 무엇인가요?]() - TCP가 무엇인지, TCP의 장단점, UDP와 비교해서 설명할 줄 알아야 한다.
 
-
+## 💭디자인 패턴
+- [✨디자인 패턴이 무엇인가요?](https://github.com/99sStudy/CS-Interview-Master/blob/main/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4%EC%9D%B4%EB%9E%80.md) - 디자인 패턴이 무엇인지, 왜 알아야 하는지, 종류는 무엇이 있는지 알아야 한다.
+- [✨라이브러리와 프레임워크의 차이가 무엇인지 아시나요?](https://github.com/99sStudy/CS-Interview-Master/blob/main/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4/%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC%EC%99%80%ED%94%84%EB%A0%88%EC%9E%84%EC%9B%8C%ED%81%AC.md) - 라이브러리와 프레임워크의 차이에 대해서 알아야 한다.
+- [✨싱글톤 패턴에 대해서 설명해주세요.](https://github.com/99sStudy/CS-Interview-Master/blob/main/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4/%EC%8B%B1%EA%B8%80%ED%86%A4%ED%8C%A8%ED%84%B4.md) - 싱글톤 패턴이 무엇인지, 장단점, 자바스크립트에서는 어떻게 쓰이는지 알아야 한다.
+- 
 ## 💭React 관련 꼬리 질문
 
 - [✨가상DOM에 대해서 설명해주세요.](https://github.com/99sStudy/CS-Interview-Master/blob/main/%EB%A6%AC%EC%95%A1%ED%8A%B8/%EA%B0%80%EC%83%81DOM.md) - 가상 DOM이 무엇인지 사전적 정의를 알고, 왜 쓰는지 알아야 한다.
@@ -85,7 +95,10 @@
 - [✨훅의 규칙에 대해서 아시는대로 설명해주세요.](https://github.com/99sStudy/CS-Interview-Master/blob/main/%EB%A6%AC%EC%95%A1%ED%8A%B8/%ED%9B%85%EC%9D%98%20%EA%B7%9C%EC%B9%99.md) - 훅의 4가지 규칙에 대해서 알고, 왜 그러한 규칙을 가지는지 알아야 한다.
 - [✨사용자 정의 훅과 고차 컴포넌트의 차이에 대해서 설명해주세요.](https://github.com/99sStudy/CS-Interview-Master/blob/main/%EB%A6%AC%EC%95%A1%ED%8A%B8/%EC%82%AC%EC%9A%A9%EC%9E%90%EC%A0%95%EC%9D%98%ED%9B%85%EA%B3%BC%EA%B3%A0%EC%B0%A8%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8.md) - 사용자 정의 훅과 고차 컴포넌트의 공통점과 차이점에 대해서 알아야 한다.
 - [✨Tanstack-Query를 사용하셨는데 장점이 무엇인가요?](https://github.com/99sStudy/CS-Interview-Master/blob/main/%EB%A6%AC%EC%95%A1%ED%8A%B8/TanstackQuery.md) - TanstackQuery가 무엇인지 알고, 왜 사용하는지, 왜 등장했는지 알아야 한다.
-
+- [✨리액트는 무엇이고 왜 쓰는건가요?](https://github.com/99sStudy/CS-Interview-Master/blob/main/%EB%A6%AC%EC%95%A1%ED%8A%B8/%EB%A6%AC%EC%95%A1%ED%8A%B8%EB%A5%BC%EC%93%B0%EB%8A%94%EC%9D%B4%EC%9C%A0.md) - 리액트가 무엇인지에 대한 사전적 정의와 주요 특징에 대해서 알아야 한다.
+- [✨리액트에서 메모이제이션을 어떤 방식으로 활용할 수 있나요?](https://github.com/99sStudy/CS-Interview-Master/blob/main/%EB%A6%AC%EC%95%A1%ED%8A%B8/%EB%A9%94%EB%AA%A8%EC%9D%B4%EC%A0%9C%EC%9D%B4%EC%85%98.md) - 리액트에서 메모이제이션을 어떻게 활용하는지 useMemo, useCallback, React.memo의 차이에 대해서 설명할 줄 알아야 한다.
+- [✨상태관리 라이브러리를 사용해보신적 있나요?(개인적인 답변을 구성해봤습니다.)](https://github.com/99sStudy/CS-Interview-Master/blob/main/%EB%A6%AC%EC%95%A1%ED%8A%B8/%EC%83%81%ED%83%9C%EA%B4%80%EB%A6%AC%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC%EB%A5%BC%EC%82%AC%EC%9A%A9%ED%95%B4%EB%B4%A4%EB%82%98%EC%9A%94.md) - 면접 중 상태관리 라이브러리 사용 경험에 대해 묻는다면 어떻게 답변해야할지 알아야 한다.
+- [✨함수형 컴포넌트와 Class형 컴포넌트 방식의 차이점에 대해서 답변해주세요. 둘 중 선호하는 것은 ?](https://github.com/99sStudy/CS-Interview-Master/blob/main/%EB%A6%AC%EC%95%A1%ED%8A%B8/%ED%95%A8%EC%88%98%ED%98%95%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8%EC%99%80%ED%81%B4%EB%9E%98%EC%8A%A4%ED%98%95%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8.md) - 함수형 컴포넌트와 Class형 컴포넌트의 차이에 대해서 알고 있어야 한다.
 ## 💭자바스크립트 관련 꼬리 질문
 
 - [✨실행컨텍스트에 대해서 설명해주세요](https://github.com/99sStudy/CS-Interview-Master/blob/main/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8/%EC%8B%A4%ED%96%89%EC%BB%A8%ED%85%8D%EC%8A%A4%ED%8A%B8.md) - 실행컨텍스트는 어떻게 구성되어 있는지 정확하게 알아야한다.
@@ -93,5 +106,15 @@
 - [✨이벤트 루프에 대해서 설명해주세요.](https://github.com/99sStudy/CS-Interview-Master/blob/main/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8/%EC%9D%B4%EB%B2%A4%ED%8A%B8%EB%A3%A8%ED%94%84.md) - 이벤트 루프에 대해서 알고, 이어지는 꼬리 질문에 대비해야 한다.
 - [✨mutable과 immutable에 대해 설명해주세요.](https://github.com/99sStudy/CS-Interview-Master/blob/main/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8/mutable%EA%B3%BCImmutable.md) - mutable과 immutable에 대해서 알고, **불변성**을 유지하려면 어떻게 해야하는지 알아야 한다.
 - [✨프로토타입이 무엇인가요?](https://github.com/99sStudy/CS-Interview-Master/blob/main/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8/%ED%94%84%EB%A1%9C%ED%86%A0%ED%83%80%EC%9E%85.md) - 프로토 타입이 무엇인지 알고, 프로토 타입 체인, OOP에 대해서 알아야 한다.
-
+- [✨== 과 ===의 차이에 대해서 설명해주세요](https://github.com/99sStudy/CS-Interview-Master/blob/main/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8/%3D%3D%EC%99%80%3D%3D%3D%EC%9D%98%EC%B0%A8%EC%9D%B4.md) - ==와 ===의 차이에 대해서 인지하고 있어야 한다.
+- [✨iterable, iterator, generator에 대해 설명해 주세요.](https://github.com/99sStudy/CS-Interview-Master/blob/main/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8/iterable%2Citerator%2Cgenerator.md) - 이터러블, 이터레이터, 제너레이터에 대해서 인지하고 있어야 한다.
+- [✨null과 undefined의 차이점에 대해서 말씀해주세요.](https://github.com/99sStudy/CS-Interview-Master/blob/main/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8/null%2Cundefined%2Cundeclared%2CNaN.md) - unll과 undefined의 차이에 대해서 알고, 무슨 의미를 갖고 있는지 언제 사용해야하는지 알아야 한다.
+- [✨자바스크립트의 this에 대해서 설명해줄 수 있나요?](https://github.com/99sStudy/CS-Interview-Master/blob/main/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8/this.md) - this에 대해서 물었을 때 설명할 줄 알아야 한다./
+- [✨var, let, const의 차이를 설명해 주세요.](https://github.com/99sStudy/CS-Interview-Master/blob/main/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8/var%2Clet%2Cconst.md) - var, let, const의 차이에 대해서 알아야 하고, 그에 따른 호이스팅, TDZ, 변수 생성과정 등에 대해서 알아야 한다.
+- [✨동기와 비동기에 대해서 설명해주세요](https://github.com/99sStudy/CS-Interview-Master/blob/main/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8/%EB%8F%99%EA%B8%B0%2C%EB%B9%84%EB%8F%99%EA%B8%B0.md) - 동기와 비동기, 블로킹과 논블로킹의 사전적 정의에 대해서 알아야한다.
+- [✨콜백함수에 대해 설명해 주세요.](https://github.com/99sStudy/CS-Interview-Master/blob/main/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8/%EC%BD%9C%EB%B0%B1%ED%95%A8%EC%88%98.md) - 콜백함수와 콜백지옥에 대해서 알고 있어야 한다.
+- [✨타입스크립트란 무엇인가요?](https://github.com/99sStudy/CS-Interview-Master/blob/main/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8/%ED%83%80%EC%9E%85%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8.md) - 타입스크립트가 무엇인지 알아야 하고, 사용시 경험하는 부분에 대해서 알고 있어야 한다.
+- [✨함수 선언문과 함수 표현식의 차이를 설명해 주세요.](https://github.com/99sStudy/CS-Interview-Master/blob/main/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8/%ED%95%A8%EC%88%98%EC%84%A0%EC%96%B8%EB%AC%B8%EA%B3%BC%ED%95%A8%EC%88%98%ED%91%9C%ED%98%84%EC%8B%9D.md)- 함수 선언문과 함수 표현식에 대해서 알고, 호이스팅과 관련해서 인지하고 있어야 한다.
 ## 💭FrontEnd 관련 꼬리 질문
+
+
