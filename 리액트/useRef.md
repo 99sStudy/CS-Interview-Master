@@ -5,6 +5,8 @@ useRef 는 .current 프로퍼티에 전달된 인자(initialValue)로 초기화�
 반환된 객체는 컴포넌트의 전 생애주기 동안 유지됩니다.
 
 ```
+useRef는 저장공간 또는 DOM요소에 접근하기 위해 사용되는 React Hook이다.
+
 useRef는 크게 2가지의 역할을 수행합니다.
 먼저, 저장공간의 역할인데, state와 비슷한 역할을 하지만 state와의 차이점은 state는 변화가 일어나면 리-렌더링이 일어나고 내부 변수들은 초기화되는 반면에, ref에 저장한 값은 렌더링이 일어나지 않습니다.
 즉, ref의 값 변화가 일어나도 렌더링으로 인해 내부변수들이 초기화되는 것을 막을 수 있습니다.
@@ -38,3 +40,7 @@ function MyComponent() {
 ```
 
 [코드 출처](https://react-ko.dev/reference/react/useLayoutEffect)
+
+### forwardRef란?
+
+forwardRef는 React에서 제공하는 고차 컴포넌트(Higher-Order Component, HOC)로, 부모 컴포넌트가 자식 컴포넌트의 DOM 요소나 클래스 인스턴스에 직접 접근할 수 있도록 합니다. 주로 useRef와 함께 사용되어 컴포넌트 간에 참조를 전달하는 데 유용합니다.
