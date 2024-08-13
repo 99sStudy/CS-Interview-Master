@@ -12,7 +12,7 @@
 - for...of 루프를 사용하여 순회할 수 있습니다.
 - Array.from이나 전개 연산자(...) 등을 사용하여 이터러블 객체를 배열로 변환할 수 있습니다.
 
-```
+```javascript
 const myArray = [1, 2, 3];
 for (const item of myArray) {
   console.log(item);
@@ -39,7 +39,7 @@ console.log(iterator.next()); // { value: undefined, done: true }
 - next() 메서드를 가지고 있으며, 호출 시 { value: 요소, done: boolean } 형태의 객체를 반환합니다.
 - done 속성이 true가 될 때까지 순회할 수 있습니다.
 
-```
+```javascript
 const myArray = [1, 2, 3];
 const iterator = myArray[Symbol.iterator]();
 console.log(iterator.next()); // { value: 1, done: false }
@@ -65,7 +65,7 @@ console.log(iterator.next()); // { value: undefined, done: true }
 - yield 키워드를 사용하여 값을 생성하며, 일시 중지된 상태를 유지합니다.
 - next 메서드를 사용하여 제너레이터의 실행을 재개할 수 있습니다.
 
-```
+```javascript
 function* myGenerator() {
   yield 1;
   yield 2;

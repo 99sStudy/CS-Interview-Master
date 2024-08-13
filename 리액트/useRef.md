@@ -43,4 +43,5 @@ function MyComponent() {
 
 ### forwardRef란?
 
-forwardRef는 React에서 제공하는 고차 컴포넌트(Higher-Order Component, HOC)로, 부모 컴포넌트가 자식 컴포넌트의 DOM 요소나 클래스 인스턴스에 직접 접근할 수 있도록 합니다. 주로 useRef와 함께 사용되어 컴포넌트 간에 참조를 전달하는 데 유용합니다.
+forwardRef는 React에서 제공하는 고차 컴포넌트(Higher-Order Component, HOC)로, 부모 컴포넌트가 자식 컴포넌트의 DOM 요소나 클래스 인스턴스에 직접 접근할 수 있도록 합니다.
+주로 useRef와 함께 사용되어 컴포넌트 간에 참조를 전달하는 데 유용합니다.
