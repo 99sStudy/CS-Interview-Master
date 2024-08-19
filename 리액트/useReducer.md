@@ -12,28 +12,28 @@ state값을 변경하는 시나리오를 제한적으로두고, 이에 대한 �
 
 ### 🛠️사용법
 
-```
-import { useReducer } from 'react';
+```javascript
+import { useReducer } from "react";
 
 function reducer(state, action) {
-  if (action.type === 'incremented_age') {
+  if (action.type === "incremented_age") {
     return {
-      age: state.age + 1
+      age: state.age + 1,
     };
   }
-  throw Error('Unknown action.');
+  throw Error("Unknown action.");
 }
-
 
 function MyComponent() {
   const [state, dispatch] = useReducer(reducer, { age: 42 });
   // ...
+}
 ```
 
-```
+```javascript
 // 화면에 표시되는 내용을 업데이트하려면 사용자가 수행한 작업을 나타내는 객체, 즉,액션을 사용하여 dispatch를 호출합니다:
 function handleClick() {
-  dispatch({ type: 'incremented_age' });
+  dispatch({ type: "incremented_age" });
 }
 ```
 
