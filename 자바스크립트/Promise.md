@@ -104,3 +104,21 @@ Promise.all()은 여러 프로미스의 결과를 집계할 때 사용합니다.
 일반적으로 서로 연관된 비동기 작업 여러 개가 모두 이행되어야 하는 경우에 사용됩니다.
 
 또한 입력 값으로 들어온 프로미스 중 하나라도 거부당하면 Promise.all()은 즉시 거부합니다.
+
+### 🤔 await async가 promise랑 매칭되서 어떻게 동작되는지 설명해주세요
+
+#### async/await와 Promise의 관계
+
+- Promise 반환: `async 함수는 항상 Promise를 반환`합니다. 함수 내부에서 반환한 값은 자동으로 Promise.resolve()로 감싸집니다.
+
+```javascript
+async function fetchData() {
+  return "데이터 수신 완료"; // 실제로는 Promise.resolve("데이터 수신 완료")와 동일
+}
+
+fetchData().then((data) => console.log(data)); // "데이터 수신 완료"
+```
+
+위 코드에서 fetchData 함수는 "데이터 수신 완료"라는 문자열을 반환합니다. 그러나 이 함수는 async로 선언되었기 때문에 실제로는 Promise가 반환됩니다.
+
+- 비동기 흐름: await를 사용하면 Promise가 해결될 때까지 코드 실행이 일시 정지되지만, JavaScript의 `이벤트 루프는 계속 작동`합니다. 이로 인해 비동기 작업을 쉽게 처리할 수 있습니다.
