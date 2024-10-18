@@ -22,8 +22,28 @@ function 키워드로 정의한 함수는 호출 방식에 따라 this 바인딩
 
 - `일반적인 함수 호출의 경우`는 this가 전역 객체를 가리키며,
 
+```javascript
+function fn() {
+  console.log(this);
+}
+```
+
 - `객체의 메서드로 호출되는 경우`는 해당 객체를 가리키게 됩니다.
 
+```javascript
+const obj = {
+  value: 42,
+  method: function fn() {
+    console.log(this);
+  },
+};
+obj.method(); // this = obj
+```
+
 - 함수가 `이벤트 핸들러로써 호출되는 경우`에는 이벤트가 발생한 요소를 가리킵니다.
+
+```javascript
+button.addEventListener("click", fn); // this = button
+```
 
 이처럼, function 키워드로 정의한 함수는 `this 바인딩의 일관성이 부족`하기 때문에, ES6 이전에는 `apply나 call, bind`와 같은 함수를 통해 명시적으로 this 바인딩을 수행했습니다.
