@@ -1,6 +1,6 @@
 # Typescript satisfies 연산자
 
-satisfies연산자는 유니온 타입에 사용한다.
+satisfies연산자는 `유니온 타입에 사용`한다.
 
 ```typescript
 type objType = {
@@ -20,7 +20,7 @@ const obj: objType = {
   age: 20,
 };
 
-//하지만 타입 지정을 하면 union일 때 아래와 같이 메서드를 사용할 수 없음
+//하지만 타입 지정을 하면 union일 때 아래와 같이 메서드를 사용할 수 없음 string | number이니까
 obj.name.charAt(1);
 obj.age.toFixed(1);
 ```
@@ -40,8 +40,8 @@ const obj = {
 } satisfies objType;
 ```
 
-타입스크립트의 타입 추론은 그대로 활용하면서
+타입스크립트의 `타입 추론은 그대로 활용하면서`
 
-추가적으로 타입 검사를 한 번 더 하게 된다.
+`추가적으로 타입 검사를 한 번 더 하게` 된다.
 
 보통 타입이 유니온으로 타입이 넓을 때 사용한다.

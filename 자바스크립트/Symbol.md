@@ -71,11 +71,3 @@ console.log(Object.keys(user)); // ['name']
 ### 결론
 
 `Symbol`은 고유한 속성을 정의하고 객체의 속성을 분리하는 데 매우 유용합니다. 이로 인해 코드의 안전성과 유지보수성을 높일 수 있습니다.
-
-이런 자료를 참고했어요.
-[1] MDN Web Docs - Symbol - JavaScript - MDN Web Docs (https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Symbol)
-[2] GitHub - JavaScript의 Symbol에 대해서. (https://pozafly.github.io/javascript/symbol/)
-[3] IT 엘도라도 - [JavaScript] 심볼 (Symbol) 타입 이해하기 - IT 엘도라도 - 티스토리 (https://it-eldorado.tistory.com/149)
-[4] 모던 JavaScript 튜토리얼 - 심볼형 (https://ko.javascript.info/symbol)
-
-뤼튼 사용하러 가기 > https://agent.wrtn.ai/5xb91l
