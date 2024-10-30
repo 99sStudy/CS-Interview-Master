@@ -26,14 +26,14 @@ BEM은 다음과 같은 세 가지 구성 요소로 이루어져 있습니다.
 
 ### 🤔 OOCSS(Object-Oriented CSS) 방법론에 대해서 설명해주실 수 있나요?
 
-OOCSS는 객체 지향 프로그래밍의 개념을 CSS에 적용한 것입니다.
+OOCSS는 `객체 지향 프로그래밍의 개념을 CSS에 적용`한 것입니다.
 
 주로 재사용성과 구조화에 중점을 둡니다.
 
 OOCSS는 두 가지 `주요 원칙`을 따릅니다.
 
-- 구조와 스타일 분리: 스타일과 레이아웃을 분리하여 재사용성을 높입니다. 예를 들어, 버튼의 스타일과 버튼이 배치되는 위치를 별도로 정의합니다.
-- 상태와 스타일 분리: 기본 스타일과 상태(pseudo-class) 스타일을 분리하여 관리합니다. 이를 통해 같은 객체의 다양한 상태를 쉽게 처리할 수 있습니다.
+- 구조와 스타일 분리: 스타일과 레이아웃을 분리하여 재사용성을 높입니다. 예를 들어, `버튼의 스타일`과 `버튼이 배치되는 위치를 별도로 정의`합니다.
+- 상태와 스타일 분리: `기본 스타일과 상태(pseudo-class) 스타일을 분리하여 관리`합니다. 이를 통해 같은 객체의 다양한 상태를 쉽게 처리할 수 있습니다.
 
 ### 장점:
 
@@ -68,11 +68,11 @@ SMACSS는 CSS의 `구조를 더 세분화`하고, `스타일을 모듈화`하여
 
 SMACSS는 `5가지 카테고리`로 스타일을 나누어 관리합니다.
 
-- 기본(Base): 기본적인 HTML 요소에 대한 스타일을 정의합니다.
-- 레이아웃(Layout): 페이지의 구조를 정의하는 스타일입니다. 전체 레이아웃에 영향을 미치는 스타일을 포함합니다.
-- 모듈(Module): 재사용 가능한 UI 컴포넌트에 대한 스타일입니다.
-- 상태(State): 특정 상태(활성, 비활성 등)에 대한 스타일입니다.
-- 테마(Theme): 사이트의 전반적인 스타일을 정의합니다.
+- `기본(Base)`: 기본적인 HTML 요소에 대한 스타일을 정의합니다.
+- `레이아웃(Layout)`: 페이지의 구조를 정의하는 스타일입니다. 전체 레이아웃에 영향을 미치는 스타일을 포함합니다.
+- `모듈(Module)`: 재사용 가능한 UI 컴포넌트에 대한 스타일입니다.
+- `상태(State)`: 특정 상태(활성, 비활성 등)에 대한 스타일입니다.
+- `테마(Theme)`: 사이트의 전반적인 스타일을 정의합니다.
 
 ### 장점:
 
@@ -80,32 +80,32 @@ SMACSS는 `5가지 카테고리`로 스타일을 나누어 관리합니다.
 - 팀원 간의 협업이 쉬워집니다.
 - 스타일이 모듈화되어 있어 새로운 컴포넌트 추가가 용이합니다.
 
-```
+```css
 /* Base */
 h1 {
-    font-size: 2em;
+  font-size: 2em;
 }
 
 /* Layout */
 .header {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 /* Module */
 .card {
-    border: 1px solid #ccc;
-    border-radius: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
 }
 
 /* State */
 .card--active {
-    border-color: blue;
+  border-color: blue;
 }
 
 /* Theme */
 .theme-dark .card {
-    background-color: #333;
-    color: white;
+  background-color: #333;
+  color: white;
 }
 ```
