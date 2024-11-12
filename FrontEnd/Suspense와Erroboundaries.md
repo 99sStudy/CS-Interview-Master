@@ -43,7 +43,7 @@ Error Boundary가 도입된 배경은 "UI의 일부분에 존재하는 JS 에러
 
 그리하여 에러를 어떤 경계 안에 가두고 정상적인 컴포넌트 대신 fallback UI를 보여주는 React의 컴포넌트입니다.
 
-여기서 핵심은 getDerivedStateFromError, componentDidCatch 메소드입니다.
+여기서 핵심은 `getDerivedStateFromError`, `componentDidCatch` 메소드입니다.
 
 ```js
 class MyErrorBoundary extends React.Component {
@@ -79,13 +79,13 @@ class MyErrorBoundary extends React.Component {
 
 ### 🤔왜 Error Boundary는 class 컴포넌트로만 구현할 수 있을까요?
 
-함수형 컴포넌트, hook은 컴포넌트의 생명주기 중 이 메소드들을 지원하지 않기 때문입니다.
+함수형 컴포넌트, hook은 `컴포넌트의 생명주기 중 이 메소드들을 지원하지 않기 때문`입니다.
 
-- getDerivedStateFromError
+- `getDerivedStateFromError`
 
-  - 이 메소드는 정적 메소드로 하위의 자식 컴포넌트에서 오류가 발생했을 때 호출됩니다. 주의할 점은 render 단계에서 호출되므로, side effects를 발생시키면 안됩니다. 대신 아래에서 말씀드릴 componentDidCatch를 사용하면 됩니다.
+  - 이 메소드는 정적 메소드로 `하위의 자식 컴포넌트에서 오류가 발생했을 때 호출`됩니다. 주의할 점은 `render 단계에서 호출`되므로, side effects를 발생시키면 안됩니다. 대신 아래에서 말씀드릴 componentDidCatch를 사용하면 됩니다.
 
-- componentDidCatch
+- `componentDidCatch`
   - 이 메소드는 commit 단계에서 호출되므로, side effects를 발생시켜도 됩니다. 에러 로그 기록 등에 사용할 수 있습니다.
 
 ### 🤔에러바운더리의 주의할점이 무엇인가요?
@@ -97,12 +97,83 @@ Error Boundary는 다음과 같은 에러는 포착하지 않습니다.
 3. SSR
 4. 자식이 아닌 Error Boundary 자체에서 발생하는 에러
 
-### 🤔가장 큰 목적은 비동기 코드의 에러를 선언적으로 처리하는 것인데 그럼 어떻게 해결할까요?
+### 🤔위에서 말하는 주의점에서 우리의 가장 큰 목적은 비동기 코드의 에러를 선언적으로 처리하는 것인데 그럼 어떻게 해결할까요?
 
-API에서 `Promise.reject를 throw`했더니 `Error Boundary에서 에러를 캐치`한 모습입니다.
+먼저 비동기 코드는 (예: setTimeout 혹은 requestAnimationFrame 콜백) 와 같은 것입니다.
+
+API에서 `Promise.reject를 throw`한다면 `Error Boundary에서 에러를 캐치`할 수 있습니다.
 
 ![alt text](image-2.png)
 
 data fetching을 위해 suspense와 함께 사용된 wrapPromise으로 `Promise.reject를 throw`하면 Error Boundary에서 비동기 에러를 캐치할 수 있겠다는 생각이 들었습니다.
+
+```js
+export function fetchProfileData() {
+  let userPromise = fetchUser();
+  let postsPromise = fetchPosts();
+  return {
+    user: wrapPromise(userPromise),
+    posts: wrapPromise(postsPromise),
+  };
+}
+// wrapPromise를 만듦
+function wrapPromise(promise) {
+  let status = "pending";
+  let result;
+  let suspender = promise.then(
+    (r) => {
+      status = "success";
+      result = r;
+    },
+    (e) => {
+      status = "error";
+      result = e;
+    }
+  );
+  return {
+    read() {
+      if (status === "pending") {
+        throw suspender;
+      } else if (status === "error") {
+        throw result;
+      } else if (status === "success") {
+        return result;
+      }
+    },
+  };
+}
+
+function fetchUser() {
+  return new Promise((resolve, reject) => {
+    setTimeout(() => {
+      // resolve({
+      //   name: "Ringo Starr"
+      // });
+      reject(new Error("error")); // 에러 발생
+    }, 1000);
+  });
+}
+
+function fetchPosts() {
+  return new Promise((resolve) => {
+    setTimeout(() => {
+      resolve([
+        {
+          id: 0,
+          text: "I get by with a little help from my friends",
+        },
+        {
+          id: 1,
+          text: "I'd like to be under the sea in an octupus's garden",
+        },
+        {
+          id: 2,
+          text: "You got that sand all over your feet",
+        },
+      ]);
+    }, 1100);
+  });
+}
+```
 
 [출처](https://velog.io/@kingyong9169/react-declarative-error-loading-handling)
