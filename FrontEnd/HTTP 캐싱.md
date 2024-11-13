@@ -33,7 +33,7 @@ HTTP 응답을 저장해 두는 저장소는 크게 두기지로 분류된다.
 
 ## 💡캐시 제어 헤더
 
-- HTTP 캐싱은 Cache-Control, Expires, ETag, Last-Modified와 같은 HTTP 헤더를 사용하여 캐시 동작을 제어합니다.
+- HTTP 캐싱은 `Cache-Control`, `Expires`, `ETag`, `Last-Modified`와 같은 `HTTP 헤더`를 사용하여 캐시 동작을 제어합니다.
 
 - 각 헤더는 캐시 유지 기간, 캐시 가능 여부, 캐시 갱신 조건 등을 지정합니다.
 
