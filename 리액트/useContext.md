@@ -28,7 +28,9 @@ useContext를 사용하면 이러한 복잡성을 줄일 수 있습니다.
 
 ### 🤔그럼 모든 콘텍스트를 최상위 루트 컴포넌트에 넣으면 되지 않나요?
 
-리액트 애플리케이션 관점에서는 그다지 현명한 접근법이 아닙니다. 콘텍스트가 많아질 수 록 루트 컴포넌트는 더 많은 콘텍스트로 둘러싸일 것이고, 해당 props를 다수의 컴포넌트에서 사용할 수 있게끔 해야하므로 `불필요하게 리소스가 낭비`됩니다.
+리액트 애플리케이션 관점에서는 그다지 현명한 접근법이 아닙니다.
+
+콘텍스트가 많아질 수 록 루트 컴포넌트는 더 많은 콘텍스트로 둘러싸일 것이고, 해당 props를 다수의 컴포넌트에서 사용할 수 있게끔 해야하므로 `불필요하게 리소스가 낭비`됩니다.
 
 Context의 범위는 필요한 환경에서 최대한 좁게 만들어야 합니다.
 
@@ -38,7 +40,7 @@ React.memo를 사용하면 됩니다.
 
 ### 🛠️사용법
 
-```
+```js
 function MyPage() {
   return (
     <ThemeContext.Provider value="dark">
@@ -48,27 +50,27 @@ function MyPage() {
 }
 
 function Form() {
-    const theme = useContext(ThemeContext);
+  const theme = useContext(ThemeContext);
 }
-
 ```
 
-```
+```js
 // 시간이 지남에 따라 context가 변경되기를 원하는 경우가 종종 있습니다. context를 업데이트하려면 state와 결합해야 합니다. 부모 컴포넌트에 state 변수를 선언하고 현재 state를 context 값으로 provider에 전달합니다.
 function MyPage() {
-  const [theme, setTheme] = useState('dark');
+  const [theme, setTheme] = useState("dark");
   return (
     <ThemeContext.Provider value={theme}>
       <Form />
-      <Button onClick={() => {
-        setTheme('light');
-      }}>
+      <Button
+        onClick={() => {
+          setTheme("light");
+        }}
+      >
         Switch to light theme
       </Button>
     </ThemeContext.Provider>
   );
 }
-
 ```
 
 [코드 출처](https://react-ko.dev/reference/react/useLayoutEffect)

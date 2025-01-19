@@ -1,6 +1,6 @@
 # ✨useDeferredValue란 무엇인가요?
 
-**useDeferredValue**는 React에서 제공하는 Hook으로, UI 업데이트 우선순위를 관리하는 데 유용합니다.
+**useDeferredValue**는 React에서 제공하는 Hook으로, `UI 업데이트 우선순위를 관리하는 데 유용`합니다.
 
 이 Hook은 특정 상태값이 변경될 때 **지연된 값(deferred value)**을 제공하여, 성능 문제를 완화하거나 사용자 경험을 개선합니다.
 
@@ -117,6 +117,37 @@ useDeferredValue는 `실시간 검색` 또는 `필터링`처럼 `입력과 결�
 ### **`useDeferredValue`**
 
 사용자가 검색어를 입력하고, 검색 결과를 필터링하는 상황을 가정합니다. `useDeferredValue`를 사용해 입력 지연 없이 UI가 부드럽게 반응하도록 구현합니다.
+예를 들어 a를 검색하고 나온 결과 x 일 때 ab를 검색하면 x의 결과가 계속해서 존재한 채 ab의 결과가 나타나는 것이다.(로딩이 나타나지 않음)
+-> 로딩이 안나타나면 사용자 입장에서 안좋지 않나요?
+=> 그래서 css Transition을 추가하면된다.
+
+```js
+export default function App() {
+  const [query, setQuery] = useState("");
+  const deferredQuery = useDeferredValue(query);
+  const isStale = query !== deferredQuery;
+  return (
+    <>
+      <label>
+        Search albums:
+        <input value={query} onChange={(e) => setQuery(e.target.value)} />
+      </label>
+      <Suspense fallback={<h2>Loading...</h2>}>
+        <div
+          style={{
+            opacity: isStale ? 0.5 : 1,
+            transition: isStale
+              ? "opacity 0.2s 0.2s linear"
+              : "opacity 0s 0s linear", //이 스타일로인해 검색 결과가 바뀔 때 반투명해진다.
+          }}
+        >
+          <SearchResults query={deferredQuery} />
+        </div>
+      </Suspense>
+    </>
+  );
+}
+```
 
 ## ✨**3. 주요 차이점**
 

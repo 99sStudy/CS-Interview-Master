@@ -20,6 +20,21 @@
 - 첫 번째 인자로 this 값을 전달하고, 그 이후의 인자들은 함수에 부분적으로 적용됩니다.
 - bind 메서드는 `새로운 함수를 반환`합니다.
 
+```js
+function greet() {
+  console.log(`안녕하세요, ${this.name}`);
+}
+
+const person = {
+  name: "홍길동",
+};
+
+// 'greet' 함수의 'this'를 'person' 객체로 고정
+const boundGreet = greet.bind(person);
+
+boundGreet(); // 출력: 안녕하세요, 홍길동
+```
+
 ## 🤔this가 함수의 호출 방식에 따라 특정 객체를 바인딩한다고 했는데 혹시 그 예시를 알 수 있을까요?
 
 1. `생성자 함수 내부`에서 'this'는 `생성자 함수가 생성할 인스턴스에 바인딩`됩니다.
